@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+.container {
+  padding:20px;
+}
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+[class*="col-"] {
+  padding: 10px 20px;
+}
+
+img {
+  height: 200px;
+}
+.blue.container img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+p, h3 {
+  padding: 10px 0;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+.container.pink {
+  background-color: pink;
+}
+.container.lightblue {
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 1200px) {
+  .container #third {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
