@@ -36,9 +36,8 @@ p, h3 {
   background-color: lightblue;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .container #third {
-    width: 100%;
-    margin: 0 auto;
+    margin: 0 25%;
   }
 }
